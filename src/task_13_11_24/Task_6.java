@@ -25,6 +25,7 @@ public class Task_6 {
             price = inputPrice - endirim;
             System.out.println("Endirim: " + endirim);
             System.out.println("Endirimli qiymet: " + price);
+
         } else if (150 < inputPrice && inputPrice <= 250) {
             price = inputPrice - endirim2;
             System.out.println("Endirim: " + endirim2);
