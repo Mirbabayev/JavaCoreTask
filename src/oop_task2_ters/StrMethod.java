@@ -7,12 +7,12 @@ public class StrMethod {
 // Yaratdiginiz methodu main methodunda cagiraraq isdifade edin .
 
     public static String tersCevir() {
-        Scanner sc=new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
         System.out.println("Metni daxil edin");
-        var inputWord=sc.nextLine();
-        String newWord="";
-        for(int i =inputWord.length()-1;i>=0;i--){
-            newWord=newWord+inputWord.charAt(i)+"";
+        var inputWord = sc.nextLine();
+        String newWord = "";
+        for (int i = inputWord.length() - 1; i >= 0; i--) {
+            newWord += inputWord.charAt(i);
         }
         return newWord;
     }
