@@ -4,13 +4,13 @@ public class Task_16_11 {
     public static void main(String[] args) {
 
 
-        int max=0;
-        int[] arr= {2,34,56,7,9};
-        for(int i=0;i< arr.length;i++){
-            if(max<arr[i]){
-                max=arr[i];
-            }
-        }System.out.println(max);
+       for (int i=5;i>0;i--){
+           for (int k=0;k<i;k++){
+               System.out.print(" ");
+           }  System.out.println("*");
+
+       }
+//       klas yarat return int metod olsun
 
 
 

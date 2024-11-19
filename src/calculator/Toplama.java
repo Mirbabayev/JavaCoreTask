@@ -1,4 +1,7 @@
 package calculator;
 
-public class Addition {
+public class Toplama {
+    public int toplama(int a,int b){
+        return a+b;
+    }
 }
