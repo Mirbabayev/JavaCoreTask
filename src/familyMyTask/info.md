@@ -1,0 +1,1 @@
+iki klas arasinda oxsar cehetleri gotur ferqli cahetlerin heresine uygun sekilde  
